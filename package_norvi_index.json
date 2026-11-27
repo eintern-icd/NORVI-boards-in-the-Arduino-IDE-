@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "name": "NORVI",
+      "maintainer": "NORVI Controllers",
+      "websiteURL": "https://norvi.io",
+      "email": "info@icd.lk",
+      "help": {
+        "online": "https://norvi.io/docs"
+      },
+      "platforms": [
+        {
+          "name": "NORVI X boards (ESP32-S3)",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://eintern-icd.github.io/NORVI-boards-in-the-Arduino-IDE-/norvi-esp32-thin-1.0.0.zip",
+          "archiveFileName": "norvi-esp32-thin-1.0.0.zip",
+          "checksum": "SHA-256:73d455cd8df304e02862a3ee134427c54962254ea61787e095de746b1c257d71",
+          "size": "14298",
+          "help": {
+            "online": "https://norvi.io/docs"
+          },
+          "boards": [
+            {
+              "name": "NORVI X CPU-ESPS3-X1"
+            },
+            {
+              "name": "NORVI X CPU-ESPS3-X2"
+            },
+            {
+              "name": "NORVI X CPU-ESPS3-X3"
+            },
+            {
+              "name": "NORVI XN-MAIN"
+            },
+            {
+              "name": "NORVI X - N16R8"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
